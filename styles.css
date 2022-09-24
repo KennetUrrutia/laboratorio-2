@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar-container {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a2f53;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li{
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/fonto.jpg');
+    background-position: center center;
+    /* background-size: cover; */
+}
+
+.title-container{
+    width: 50%;
+    height: 50vh;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20em;
+}
+
+.title-container-2{
+    padding: 1em;
+    text-align: center;
+    background-color: #1a2f53;
+    border-radius: 50px;
+}
+
+.title{
+    font-size: 100px;
+    color: white;
+}
+
+.subtitle{
+    color: white;
+}
+
+.logo-container{
+    width: 50%;
+    height: 97vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.circle{
+    background-color: #fd6260;
+    width: 90%;
+    height: 80%;
+    border-radius: 100% 0 0 0;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+}
